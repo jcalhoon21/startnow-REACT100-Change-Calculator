@@ -1,0 +1,21 @@
+body {
+    /* Source: https://uigradients.com */
+    background: #3a7bd5;
+    background: -webkit-linear-gradient(to right, #3a6073, #3a7bd5);
+    background: linear-gradient(to right, #3a6073, #3a7bd5);
+}
+
+h2 {
+    color: #fff;
+    margin: 2%;
+}
+
+.my-3 {
+    background-color: rgba(255, 255, 255, 0.815);
+    height: .5px;
+}
+
+.jumbotron {
+    background-color: #fff;
+    padding: 15px;
+}
