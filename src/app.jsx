@@ -155,7 +155,7 @@ class App extends Component {
         
        {/* Left Column - Enter Information */}   
         <div className="row">
-          <div className="col-md-4 rounded">
+          <div className="col-lg-4 rounded">
             <div className="card">
               
               <div className="card-header">
@@ -208,11 +208,11 @@ class App extends Component {
         
 
         {/* Right Column - Change Due */}
-        <div className="col-md-8 rounded">
+        <div className="col-lg-8 rounded">
           <div className="jumbotron">
             
-              <div className="card-header text-center alert alert-success" role="alert">
-                The total change due is: ${ this.state.change.total }
+              <div className={`card-header text-center alert alert-${this.state.change.total >= 0 ? 'success' : 'danger'}`} role="alert">
+                The total change due is: ${this.state.change.total}
               </div>
               
               <div className="row">
